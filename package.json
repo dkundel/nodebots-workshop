@@ -2,26 +2,30 @@
   "name": "nodebots-workshop",
   "version": "1.0.0",
   "description": "🤖  This repo serves as resources for the Hardware &amp;&amp; JS workshop given at SHA2017",
-  "main": "led-blink.js",
+  "main": "hello-world/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "blink": "node led-blink.js",
-    "button": "node led-button.js",
-    "twitter": "nodenv twitter.js"
+    "blink": "node blink/index.js",
+    "button": "node button/index.js",
+    "twitter": "nodenv twitter/index.js",
+    "webserver": "node webserver/index.js",
+    "helloworld": "node hello-world/index.js",
+    "start": "npm run helloworld"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dkundel/nodebots-workshop.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Dominik Kundel <dominik.kundel@gmail.com>",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/dkundel/nodebots-workshop/issues"
   },
   "homepage": "https://github.com/dkundel/nodebots-workshop#readme",
   "dependencies": {
+    "express": "^4.15.3",
+    "got": "^7.1.0",
     "johnny-five": "^0.11.3",
-    "lodash": "^4.17.4",
     "twitter": "^1.7.1"
   },
   "devDependencies": {
