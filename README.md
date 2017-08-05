@@ -1,8 +1,9 @@
 <p align="center">
-  <h1>Nodebots Workshop</h1>
-  <p>🤖  This repo serves as resources for the Hardware &amp;&amp; JS workshop given at SHA2017</p>
   <img alt="JavaScript plus Hardware equals Nodebots" src="http://nodebots.io/img/equation.png">
+  <h1>Nodebots Workshop</h1>
 </p>
+
+🤖  This repo serves as resources for the Hardware &amp;&amp; JS workshop given at SHA2017
 
 ## Requirements
 
@@ -46,7 +47,7 @@ These are the examples available:
 | [`blink`](blink/) | Makes an external LED blink | `npm run blink` |
 | [`button`](button/) | Lights up LED when a button is pressed | `npm run button` |
 | [`webserver`](webserver/) | Spins up a webserver, lights up an LED on every request and performs a POST request on button press | `npm run webserver` |
-| [`twitter`](twitter/) | Lights up the LED whenever someone tweets about `#nodebots` and tweets on button press |
+| [`twitter`](twitter/) | Lights up the LED whenever someone tweets about `#nodebots` and tweets on button press | `npm run twitter` |
 
 ## Resources
 
