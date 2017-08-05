@@ -1,6 +1,6 @@
 <p align="center">
   <img alt="JavaScript plus Hardware equals Nodebots" src="http://nodebots.io/img/equation.png">
-  <h1>Nodebots Workshop</h1>
+  <h1 align="center">Nodebots Workshop</h1>
 </p>
 
 🤖  This repo serves as resources for the Hardware &amp;&amp; JS workshop given at SHA2017
