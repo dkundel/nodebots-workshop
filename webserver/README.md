@@ -14,7 +14,7 @@ Spins up a webserver on http://localhost:3000. Lights up the LED for 1 second fo
 
 ## Wire up
 
-![](nano-button-led_bb.png)
+![](../nano-button-led_bb.png)
 
 ## Instructions
 

@@ -14,7 +14,7 @@ Lights up LED when button is pressed
 
 ## Wire up
 
-![](nano-button-led_bb.png)
+![](../nano-button-led_bb.png)
 
 ## Instructions
 

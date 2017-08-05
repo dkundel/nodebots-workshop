@@ -14,7 +14,7 @@ Lights up LED when someone tweets about `#nodebots` and sends a tweet when the b
 
 ## Wire up
 
-![](nano-button-led_bb.png)
+![](../nano-button-led_bb.png)
 
 ## Instructions
 

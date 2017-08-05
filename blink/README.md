@@ -12,7 +12,7 @@ Makes external LED blink
 
 ## Wire up
 
-![](nano-led_bb.png)
+![](../nano-led_bb.png)
 
 ## Instructions
 
