@@ -4,6 +4,8 @@ const got = require('got');
 const board = new Board();
 const app = express();
 
+const POST_URL = 'https://requestb.in/<your_code>';
+
 app.get('*', (req, res) => {
   led.on();
   // turn off LED after 1 second
@@ -20,7 +22,7 @@ function onReady() {
   led = new Led(6);
   button.on('press', () => {
     got
-      .post('https://requestb.in/1fu4s0y1')
+      .post(POST_URL)
       .then(() => {
         console.log('Made request');
       })
