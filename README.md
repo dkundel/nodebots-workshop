@@ -18,7 +18,9 @@
   - [Node.js] and [npm]
   - Potentially the [Arduino IDE] to install the firmware
   - Your favorite code editor
-  - The drivers to detect your Arduino. [For anything with an CH340G chip check out this page](https://www.sparkfun.com/products/14050)
+  - The drivers to detect your Arduino (everything with a CH340G chip): 
+    - [Windows, Linux, Mac (10.11 El Capitan and lower)](https://www.sparkfun.com/products/14050)
+    - [Mac (10.12 Siera and higher)](https://github.com/adrianmihalko/ch340g-ch34g-ch34x-mac-os-x-driver)
 
 If you have a new Arduino you will need to install the Firmata firmware on the Arduino. 
 [Perform the instructions in this blog post to do so][Getting started with nodebots].
