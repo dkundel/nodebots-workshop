@@ -10,7 +10,9 @@
     "twitter": "nodenv twitter/index.js",
     "webserver": "node webserver/index.js",
     "helloworld": "node hello-world/index.js",
-    "start": "npm run helloworld"
+    "start": "npm run helloworld",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -26,9 +28,11 @@
     "express": "^4.15.3",
     "got": "^7.1.0",
     "johnny-five": "^0.11.3",
-    "twitter": "^1.7.1"
+    "twitter": "^1.7.1",
+    "snyk": "^1.83.0"
   },
   "devDependencies": {
     "node-env-run": "^2.0.1"
-  }
+  },
+  "snyk": true
 }
