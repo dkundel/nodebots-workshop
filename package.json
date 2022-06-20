@@ -24,7 +24,7 @@
   "homepage": "https://github.com/dkundel/nodebots-workshop#readme",
   "dependencies": {
     "express": "^4.15.3",
-    "got": "^7.1.0",
+    "got": "^11.8.5",
     "johnny-five": "^0.11.3",
     "twitter": "^1.7.1"
   },
